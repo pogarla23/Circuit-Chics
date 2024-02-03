@@ -1,0 +1,137 @@
+p,label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+    font-weight: 500;
+}
+
+
+
+
+input{
+    flex: 1;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    display: inline-block;
+    border-radius: 6px;
+    border-color: rgb(195, 208, 212);
+    border: solid;
+    width: 200px;
+    background-color: lightblue;
+    border-top-color:lightblue;
+    border-left-color:lightblue;
+    border-right-color:rgb(77, 145, 168);
+    border-bottom-color:rgb(77, 145, 168);
+    margin-right: 10px;
+}
+
+
+input:focus{
+    background-color: rgb(193, 216, 223);
+    border-color:rgb(77, 145, 168);
+    outline: none;
+}
+
+
+.Guardian-name-container,.Student-name-container{
+    background-color: #bbf18f;
+    display: flex;
+    white-space: 2px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+}
+.radio-section{
+    padding-top: 10px;
+}
+
+.middle-radio, .high-radio, .other-radio{
+    width: 10px;
+}
+
+.header{
+    margin-top: 15px;
+    background-color: grey;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: fixed;
+    z-index: 100;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+
+    margin-left: 20px;
+    margin-right: 20px;
+
+    border-radius: 15px;
+    border-bottom-width: 5px;
+    border-bottom-style:groove;
+    border-bottom-color: #bcee92;
+}
+
+.Back-link{
+    text-decoration: none;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.Student-R-title{
+    font-family: 'Verdana';
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.title-page{
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    font-weight: bold;
+}
+
+.form-page{
+    margin: 0;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+
+    padding-top: 40px;
+    padding-left: 96px;
+    padding-right: 96px;
+    padding-bottom: 800px; 
+    background-color:  #bcee92;
+}
+
+.Application-info{
+    padding-top: 20px;
+
+}
+
+.Submit{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Submit-button{
+   background-color:#a8e577;
+   flex: 1;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   border-radius: 20px;
+   font-family: 'Segoe UI';
+   font-size: 20px;
+   font-weight: 500;
+   transition: opacity 0.6s;
+   border-color:#bbf18f ;
+}
+
+.Submit-button:hover{
+    background-color:#93e451;
+}
