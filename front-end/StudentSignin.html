@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Sign-up-form</title>
+
+    <link rel="stylesheet" href="styles/Ssign.css">
+
+</head>
+<body>
+    <header class="header">
+        <p class="Back-link">
+            <span class="shop-link">
+                <a class="tag" style = "text-decoration: none" href="landingpage.html">
+                    Back to Main Website
+                </a>
+            </span>
+        </p>
+        <p class="title-page">Student Registration Page</p>
+        <p class="Student-R-title">Pegasus Connect</p>
+    </header>
+    <form action="Tutorside.html" method="get" id="student-info-form">
+        
+        <div class="form-page">
+            <label>Applicant</label>
+            <div class="Student-name-container">
+                <input class="S-First" placeholder="First Name" type="text" id="S-First" name="S-First" required>
+                <input class="S-Last" placeholder="Last Name" type="text" id="S-Last" name="S-Last" required>
+            </div>
+           
+            <label>Guardian</label>
+            <div class="Guardian-name-container">
+                <input class="G-First" placeholder="First Name" type="text" id="G-First" name="G-First" required>
+                <input class="G-Last" placeholder="Last Name" type="text" id="G-Last" name="G-Last" required>
+            </div>
+
+            <div class="Application-info">
+                <label>Applicant Information</label>
+                <div class="radio-section">
+                    <label>Institution:</label>
+                    <input class="middle-radio" type="radio" id="middle-school" name="school-level" value="middle-school" required>
+                    <label for="middle-school">Middle School</label>
+    
+                    <input  class="high-radio" type="radio" id="high-school" name="school-level" value="high-school" required>
+                    <label for="high-school">High School</label>
+                    
+                    <input class="other-radio" type="radio" id="Other" name="school-level" value="Other" required>
+                    <label for="Other">Other</label>
+
+                    <div>
+                    <input type="text" id="school-search" name="school-search" placeholder="Enter School" required>
+                    <p class="other-text">*If chosen "Other" Please Specify</p>
+                   
+                </div>
+
+                <div class="input-1">
+                    <input class="S-Grade" placeholder="Grade" type="text" id="input-grade" name="input-grade" required>
+                    <div class="dropdown">
+                        <!-- Dropdown select element -->
+                        <select>
+                          <option value="12">11</option>
+                          <option value="12">12</option>
+                          <option value="13">13</option>
+                          <option value="14">14</option>
+                          <option value="15">15</option>
+                          <option value="16">16</option>
+                          <option value="17">17</option>
+                        </select>
+                      </div>
+                </div>
+
+                <div class="Checkbox-section">
+                    <label>Do you have Access to a Computer or any Electronic at Home :</label>
+                    <input class="middle-radio" type="radio" id="middle-school" name="school-level" value="middle-school" required>
+                    <label for="middle-school">Middle School</label>
+    
+                    <input  class="high-radio" type="radio" id="high-school" name="school-level" value="high-school" required>
+                    <label for="high-school">High School</label>
+                    
+                    <input class="other-radio" type="radio" id="Other" name="school-level" value="Other" required>
+                    <label for="Other">Other</label>
+
+                    <div>
+                    <input type="text" id="school-search" name="school-search" placeholder="Enter School" required>
+                    <p class="other-text">*If chosen "Other" Please Specify</p>
+                   
+                </div>
+
+    
+            </div>
+            </div>
+            <div class="Submit">
+                <button class="Submit-button">SUBMIT</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
