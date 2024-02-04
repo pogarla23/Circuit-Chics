@@ -7,7 +7,9 @@ p,label{
 
 body{
     display: flex;
-    max-width: 1000px;
+    max-width: 5000px;
+    height: fit-content;
+    max-height: 500px;
     background-color: #efebe1;
 }
 
@@ -49,6 +51,7 @@ input{
 }
 
 .location{
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,7 +64,6 @@ input:focus{
 }
 
 .input-1{
-    display: flex;
     justify-content: center;
     margin-top: 20px;
     margin-bottom: -10px;
@@ -69,19 +71,17 @@ input:focus{
 
 .other-text{
     font-size: 12px;
+    display: block;
 }
 
-.dropdowns{
+.dropdowns {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 30px;
-    margin-bottom: 80px;
 }
 
 
 .dropdown1{ 
-    margin-right: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
     border-radius: 10px;
@@ -94,26 +94,23 @@ input:focus{
     border-bottom-color:#bcafe7;
 }
 
+.T-Age{
+    max-width: 200px;
+}
 
 .Checkbox-section2{
     margin-left: -10px;
 }
 
-.diff-label{
-    color: #6a5252;
-    font-weight: 10px;
-}
-
-.Guardian-name-container,.Student-name-container{
+.Tutor-name-container{
     display: flex;
     white-space: 2px;
-    margin-top: 6px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
 }
 
 .radio-section{
     position: relative;
-    margin-top: 20px;
     padding-top: 10px;
 }
 
@@ -124,9 +121,6 @@ input:focus{
 
 
 .section1-choice, .section2-choice{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin-right: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -168,6 +162,21 @@ input:focus{
     margin-right: -90px;
 }
 
+.Switch-button{
+    font-family: 'Verdana';
+    flex-shrink: 0;
+}
+
+
+.switch-form{
+    font-family: 'Verdana';
+    border: none;
+    margin-left: 30px;
+    text-decoration: none;
+    background-color:#EC9764;
+    color: #745151;
+    font-size: 15px;
+}
 .header{
     margin-top: 15px;
     background-color: #EC9764;
@@ -203,16 +212,6 @@ input:focus{
     flex-shrink: 0;
 }
 
-.switch-form{
-    font-family: 'Verdana';
-    border: none;
-    margin-left: 40px;
-    text-decoration: none;
-    background-color:#EC9764;
-    color: #745151;
-    font-size: 15px;
-}
-
 .Student-R-title{
     font-family:'Protest Strike',Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
@@ -222,6 +221,7 @@ input:focus{
     align-items: center;
     flex-shrink: 0;
 }
+
 .title-page{
     font-size: 20px;
     display: flex;
@@ -240,7 +240,7 @@ input:focus{
     padding-top: 40px;
     padding-left: 96px;
     padding-right: 96px;
-    padding-bottom: 80px; 
+    padding-bottom: 100px;
     background-color: #ddd6f3
 }
 
@@ -259,16 +259,16 @@ input:focus{
 }
 
 .Submit-button{
-   background-color:#dd855c;
    flex: 1;
    padding-top: 10px;
    padding-bottom: 10px;
    border-radius: 20px;
-   font-family: 'Segoe UI';
+   background-color:#dd855c;
+   font-family:Verdana;
+   border-color:#eeb08a;
    font-size: 20px;
    font-weight: 500;
    transition: opacity 0.6s;
-   border-color:#eeb08a;
 }
 
 .Submit-button:hover{

@@ -7,31 +7,39 @@
     <title>Sign-up-form</title>
 
     <link rel="stylesheet" href="styles/Ssign.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+
 
 </head>
 <body>
         <header class="header">
-            <p class="Back-link">
-                <span class="shop-link">
-                    <a class="tag" style = "text-decoration: none" href="landingpage.html">
+            <p class="Back-link" style="display: grid;">
+                <span class="shop-link" >
+                    <a class="tag" style = "color: #745151;text-decoration: none; font-family:'Protest Strike',Verdana, Geneva, Tahoma, sans-serif;" href="landingpage.html">
                         Back to Main Website
                     </a>
                 </span>
+                <a class="switch-form"href="Tutorsignin.html">Become a Tutor</a>
+                
             </p>
             <p class="title-page">Student Registration Page</p>
-            <p class="Student-R-title">Pegasus Connect</p>
+
+                <p class="Student-R-title">Pegasus Connect</p>
         </header>
 
     <form action="Tutorside.html" method="get" id="student-info-form">
         
         <div class="form-page">
-            <label style="font-weight: 600">Applicant</label>
+            <label class="diff-label">Applicant</label>
+            
             <div class="Student-name-container">
                 <input class="S-First" placeholder="First Name" type="text" id="S-First" name="S-First" required>
                 <input class="S-Last" placeholder="Last Name" type="text" id="S-Last" name="S-Last" required>
             </div>
            
-            <label>Guardian</label>
+            <label class="diff-label"> Guardian</label>
             <div class="Guardian-name-container">
                 <input class="G-First" placeholder="First Name" type="text" id="G-First" name="G-First" required>
                 <input class="G-Last" placeholder="Last Name" type="text" id="G-Last" name="G-Last" required>
@@ -40,10 +48,11 @@
             
 
             <div class="Application-info">
+
                 <label>Applicant Information</label>
                 <hr size="2" width="100%" color=#74515>
                 <div class="dropdowns">
-                    <label>Age</label>
+                    <label class="diff-label">Age</label>
                     <!-- Dropdown select element -->
                     <select class="dropdown1">
                         <option value="None"> </option>
@@ -56,7 +65,7 @@
                         <option value="17">17</option>
                     </select>
 
-                    <label>Gender</label>
+                    <label class="diff-label">Gender</label>
                     <!-- Dropdown select element -->
                     <select class="dropdown1">
                         <option value="None"> </option>
@@ -65,7 +74,7 @@
                         <option value="14">Prefer not to Say</option>
                     </select>
 
-                    <label>Pronouns</label>
+                    <label class="diff-label">Pronouns</label>
                     <!-- Dropdown select element -->
                     <select class="dropdown1">
                         <option value="None"> </option>
@@ -75,11 +84,11 @@
                         <option value="Any">No Preference</option>
                         <option value="Prefer not to say">Prefer not to Say</option>
                     </select>
-                
+                    
                 </div>
                 
                 <div class="radio-section">
-                    <label style="font-weight: 600">Institution:</label>
+                    <label class="diff-label">Institution:</label>
                     <input class="radio1" type="radio" id="middle-school" name="school-level" value="middle-school" required>
                     <label for="middle-school">Middle School</label>
     
@@ -103,48 +112,104 @@
                 
 
 
-                <label class="acess-ele">Do you have Access to Reliable Internet at HOME  :</label>
+               
                 <div class="radio-section1">
-                    <input class="radio-1-choice" type="radio" id="yes-choice" name="yes" value="Yes" required>
-                    <label for="Yes">Yes</label>
-    
-                    <input class="radio-1-choice" type="radio" id="no-choice" name="no" value="no" required>
-                    <label for="No">No</label>
-                    
-                    <input class="radio-1-choice" type="radio" id="idk" name="idk" value="Idk" required>
-                    <label for="IDK">I'm not sure</label>
+                    <label class="acess-ele">Do you have Access to Reliable Internet:</label>
+                    <input class="radio-1-choice" type="radio" id="yes-choice" name="choice" value="Yes" required>
+                    <label for="Yes"> Yes</label>
+                    <input class="radio-1-choice" type="radio" id="no-choice" name="choice" value="no" >
+                    <label for="No" required> No</label>
+                    <input class="radio-1-choice" type="radio" id="idk" name="choice" value="Idk" required>
+                    <label for="IDK"> I'm not sure</label>
                 </div>
 
 
                 <label class="text-changes">
                     What Devices do YOU have Access to? (Computer/Tablet/Phone)
                 </label>
-                <div class="Electronic-checklist">
-                    <label class="elecheck" for="Computer">
-                        <input type="checkbox" name="device" value="computer">
-                        Computer
-                    </label>
-                    <label  class="elecheck"  for="Phone">
-                        <input type="checkbox" name="device" value="Phone">
-                        Phone
-                    </label>
+                    <div class="Electronic-checklist">
+                        <div>
+                            <label class="elecheck" for="Computer">
+                                <input type="checkbox" name="device" value="computer">
+                                Computer
+                            </label>
+                            <label  class="elecheck1"  for="Phone">
+                                <input type="checkbox" name="device" value="Phone">
+                                Phone
+                            </label>
+                        </div>
 
-                    <label  class="elecheck"  for="Tablet">
-                        <input type="checkbox" name="device" value="Tablet">
-                        Tablet
-                    </label>
-
-                    <label   class="elecheck"  for="Other-device">
-                        <input type="checkbox" name="device" value="Device">
-                        Other Device
-                    </label>
-                </div>
+                        <div>
+                            <label  class="elecheck"  for="Tablet">
+                                <input type="checkbox" name="device" value="Tablet">
+                                Tablet
+                            </label>
+                            <label   class="elecheck"  for="Other-device">
+                                <input type="checkbox" name="device" value="Device">
+                                Other Device
+                            </label>
+                        </div>
+                    </div>
 
                 <div class="language">
-                    <p>What is your preferred language?</p>
+                    <p class="diff-label">What is your preferred language?</p>
                     <input class="Language" placeholder="Preferred Language" type="text" id="Language" name="Language" required>
                 </div>
-              
+                
+                <label>Personal Preference Section</label>
+                <hr size="2" width="100%" color=#74515>
+                <div class="ranking-container">
+                    <label class="diff-label">Rank STEM subjects to Match for Personal Preference</label>
+                    <div class="section1-choice">
+                        <label for="item1">Choice 1:</label>
+                        <select class="dropdown1" id="item1" required>
+                            <option value="0"></option>
+                            <option value="1">Science</option>
+                            <option value="2">Technology</option>
+                            <option value="3">Engineering</option>
+                            <option value="4">Mathematics</option>
+                        </select>
+                
+                        <label for="item2">Choice 2:</label>
+                        <select class="dropdown1" id="item2" required>
+                            <option value="0"></option>
+                            <option value="1">Science</option>
+                            <option value="2">Technology</option>
+                            <option value="3">Engineering</option>
+                            <option value="4">Mathematics</option>
+                        </select>
+                    </div>
+                    <div class="section2-choice">
+                        <label for="item3">Choice 3:</label>
+                        <select  class="dropdown1" id="item3" required>
+                            <option value="0"></option>
+                            <option value="1">Science</option>
+                            <option value="2">Technology</option>
+                            <option value="3">Engineering</option>
+                            <option value="4">Mathematics</option>
+                        </select>
+                
+                        <label for="item4">Choice 4:</label>
+                        <select class="dropdown1" id="item4" required>
+                            <option value="0"></option>
+                            <option value="1">Science</option>
+                            <option value="2">Technology</option>
+                            <option value="3">Engineering</option>
+                            <option value="4">Mathematics</option>
+                        </select>
+                    </div>
+                </div>
+
+                <script>
+                    // You can use JavaScript to handle changes in the dropdowns if needed
+                    document.querySelectorAll('select').forEach(function(select) {
+                        select.addEventListener('change', function() {
+                            // Handle changes if needed
+                            console.log(select.id + ' is now ranked ' + select.value);
+                        });
+                    });
+                </script>
+
 
                 <label class="make-account-label">Make an Account</label>
                 <div class="Guardian-name-container">
@@ -154,7 +219,7 @@
 
                 
                 <div class="Terms-and-Conditions">
-                    <label>I agree to the terms and conditions</label>
+                    <label>I agree to the terms and conditions <span>*</span></label>
                     <input type="checkbox" name="device" value="Tablet" requried>
                 </div>
 
