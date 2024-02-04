@@ -1,0 +1,95 @@
+
+p, h2{
+    font-family: Manrope, Protest Strike, Verdana;
+}
+body{
+    position: inherit;
+    background-color: #f1e8ca;
+}
+
+/* Add Transition Here*/
+.info-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.profile{
+    font-family: Manrope, Verdana;
+    display: flex;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-bottom: 200px;
+    border-radius: 20px;
+    background-color: #EC9764;
+    align-items: center;
+    box-shadow:1px 10px 10px rgb(108, 171, 192);
+    transition: background-color 0.5s;
+    margin: 20px;
+}
+
+.Tutor{
+    font-family: Manrope, Verdana;
+    display: flex;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-bottom: 300px;
+    border-radius: 2px;
+    background-color: #bcafe7;
+    align-items: center;
+    box-shadow:1px 10px 10px rgb(108, 171, 192);
+    transition: background-color 0.5s;
+    margin: 10px;
+}
+
+/*
+As they scroll down, the cards appear
+from left to right they fade in
+*/
+.card-container{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    
+}
+
+
+.card {
+    display: flex;
+    padding-left: 70px;
+    padding-top: 30px;
+    padding-right: 70px;
+    padding-bottom: 500px;
+    border-radius: 20px;
+    justify-self: start;
+    background-color: #dd855c;
+
+    box-shadow:1px 10px 10px rgb(108, 171, 192);
+    transition: background-color 0.5s;
+}
+
+.card:hover{
+    background-color: rgb(149, 185, 197);
+}
+.card h2{
+    
+    text-align: center;
+}
+
+
+.card h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 0;
+    color: #666;
+}
