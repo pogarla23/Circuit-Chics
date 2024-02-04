@@ -6,9 +6,15 @@ p,label{
 }
 
 body{
+    display: flex;
+    max-width: 1000px;
     background-color: #efebe1;
 }
 
+.tag{
+    margin-left: 30px;
+    margin-bottom: 100px;
+}
 /*
 how to check to make page stay the same
 when moving smaller and bigger
@@ -29,14 +35,14 @@ input{
     background-color: #f1e8ca;
     border-top-color:#f1e8ca;
     border-left-color:#f1e8ca;
-    border-right-color:rgb(77, 145, 168);
-    border-bottom-color:rgb(77, 145, 168);
+    border-right-color:	#bcafe7;
+    border-bottom-color:#bcafe7;
     margin-right: 10px;
 }
 
 .language{
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 65px;
 }
 .language p{
     margin-right: 10px;
@@ -49,8 +55,8 @@ input{
 }
 
 input:focus{
-    background-color: rgb(193, 216, 223);
-    border-color:rgb(77, 145, 168);
+    background-color:#b3a4e3;
+    border-color:#b3a4e3;;
     outline: none;
 }
 
@@ -84,8 +90,8 @@ input:focus{
     background-color: #f1e8ca;
     border-top-color:#f1e8ca;
     border-left-color:#f1e8ca;
-    border-right-color:rgb(77, 145, 168);
-    border-bottom-color:rgb(77, 145, 168); 
+    border-right-color:#bcafe7;
+    border-bottom-color:#bcafe7;
 }
 
 
@@ -93,7 +99,10 @@ input:focus{
     margin-left: -10px;
 }
 
-
+.diff-label{
+    color: #6a5252;
+    font-weight: 10px;
+}
 
 .Guardian-name-container,.Student-name-container{
     display: flex;
@@ -114,12 +123,35 @@ input:focus{
 }
 
 
+.section1-choice, .section2-choice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-top-color:#f1e8ca;
+    border-left-color:#f1e8ca;
+    border-right-color:#bcafe7;
+    border-bottom-color:#bcafe7;
+    
+}
+
+.ranking-container{
+    margin-top:30px;
+}
+
 
 .acess-ele{
     margin-bottom: 8px;
     margin-top: 60px;
 }
 
+.elecheck1{
+    margin-left: -29px;
+}
 .radio-1-choice{
     margin-left: 20px;
     margin-right: 2px;
@@ -129,7 +161,6 @@ input:focus{
 }
 
 .radio-section1{
-    padding-left: 100px;
     display: inline-block;
 }
 
@@ -159,7 +190,7 @@ input:focus{
 
     border-bottom-width: 5px;
     border-bottom-style:groove;
-    border-bottom-color: #745151;
+    border-bottom-color: #f45048;
 }
 
 .header p{
@@ -168,12 +199,6 @@ input:focus{
 
 .make-account-label{
     margin-top: 40px;
-    display: block;
-}
-
-.Back-link{
-    text-decoration: none;
-    margin-left: 15px;
     display: flex;
     align-items: center;
     flex-shrink: 0;
@@ -196,7 +221,7 @@ input:focus{
 }
 
 .form-page{
-    position:static;
+    position: center;
     margin: 0;
     margin-top: 100px;
     margin-right: 100px;
@@ -206,7 +231,7 @@ input:focus{
     padding-left: 96px;
     padding-right: 96px;
     padding-bottom: 800px; 
-    background-color: #bbcbdb;
+    background-color: #ddd6f3
 }
 
 .Application-info{
