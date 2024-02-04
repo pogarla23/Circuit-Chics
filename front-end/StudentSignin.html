@@ -7,19 +7,26 @@
     <title>Sign-up-form</title>
 
     <link rel="stylesheet" href="styles/Ssign.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+
 
 </head>
 <body>
         <header class="header">
-            <p class="Back-link">
-                <span class="shop-link">
-                    <a class="tag" style = "text-decoration: none" href="landingpage.html">
+            <p class="Back-link" style="display: grid;">
+                <span class="shop-link" >
+                    <a class="tag" style = "color: #745151;text-decoration: none; font-family:'Protest Strike',Verdana, Geneva, Tahoma, sans-serif;" href="landingpage.html">
                         Back to Main Website
                     </a>
                 </span>
+                <a class="switch-form"href="Tutorsignin.html">Become a Tutor</a>
+                
             </p>
             <p class="title-page">Student Registration Page</p>
-            <p class="Student-R-title">Pegasus Connect</p>
+
+                <p class="Student-R-title">Pegasus Connect</p>
         </header>
 
     <form action="Tutorside.html" method="get" id="student-info-form">
@@ -107,10 +114,13 @@
 
                
                 <div class="radio-section1">
-                    <label class="acess-ele">Do you have Access to Reliable Internet at HOME :</label>
-                    <label for="Yes"> <input class="radio-1-choice" type="radio" id="yes-choice" name="yes" value="Yes" required>Yes</label>
-                    <label for="No"> <input class="radio-1-choice" type="radio" id="no-choice" name="no" value="no" required>No</label>
-                    <label for="IDK"><input class="radio-1-choice" type="radio" id="idk" name="idk" value="Idk" required> I'm not sure</label>
+                    <label class="acess-ele">Do you have Access to Reliable Internet:</label>
+                    <input class="radio-1-choice" type="radio" id="yes-choice" name="choice" value="Yes" required>
+                    <label for="Yes"> Yes</label>
+                    <input class="radio-1-choice" type="radio" id="no-choice" name="choice" value="no" >
+                    <label for="No" required> No</label>
+                    <input class="radio-1-choice" type="radio" id="idk" name="choice" value="Idk" required>
+                    <label for="IDK"> I'm not sure</label>
                 </div>
 
 
