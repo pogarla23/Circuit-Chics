@@ -136,7 +136,6 @@ input:focus{
     border-left-color:#f1e8ca;
     border-right-color:#bcafe7;
     border-bottom-color:#bcafe7;
-    
 }
 
 .ranking-container{
@@ -204,14 +203,25 @@ input:focus{
     flex-shrink: 0;
 }
 
-.Student-R-title{
+.switch-form{
     font-family: 'Verdana';
-    margin-right: 15px;
+    border: none;
+    margin-left: 40px;
+    text-decoration: none;
+    background-color:#EC9764;
+    color: #745151;
+    font-size: 15px;
+}
+
+.Student-R-title{
+    font-family:'Protest Strike',Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
+    justify-content: top;
+    margin-right: 15px;
+    font-size: 20px;
     align-items: center;
     flex-shrink: 0;
 }
-
 .title-page{
     font-size: 20px;
     display: flex;
@@ -230,7 +240,7 @@ input:focus{
     padding-top: 40px;
     padding-left: 96px;
     padding-right: 96px;
-    padding-bottom: 800px; 
+    padding-bottom: 80px; 
     background-color: #ddd6f3
 }
 
