@@ -1,0 +1,276 @@
+p,label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+    font-weight: 500;
+    color: #745151;
+}
+
+body{
+    display: flex;
+    max-width: 5000px;
+    height: fit-content;
+    max-height: 500px;
+    background-color: #efebe1;
+}
+
+.tag{
+    margin-left: 30px;
+    margin-bottom: 100px;
+}
+/*
+how to check to make page stay the same
+when moving smaller and bigger
+how to add to background
+*/
+
+
+input{
+    flex: 1;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    display: inline-block;
+    border-radius: 6px;
+    border-color: #c2c3ff;
+    border: solid;
+    width: 200px;
+    background-color: #f1e8ca;
+    border-top-color:#f1e8ca;
+    border-left-color:#f1e8ca;
+    border-right-color:	#bcafe7;
+    border-bottom-color:#bcafe7;
+    margin-right: 10px;
+}
+
+.language{
+    margin-top: 30px;
+    margin-bottom: 65px;
+}
+.language p{
+    margin-right: 10px;
+}
+
+.location{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input:focus{
+    background-color:#b3a4e3;
+    border-color:#b3a4e3;;
+    outline: none;
+}
+
+.input-1{
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+.other-text{
+    font-size: 12px;
+    display: block;
+}
+
+.dropdowns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.dropdown1{ 
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    border-width: 2px;
+    background-color: #f1e8ca;
+    background-color: #f1e8ca;
+    border-top-color:#f1e8ca;
+    border-left-color:#f1e8ca;
+    border-right-color:#bcafe7;
+    border-bottom-color:#bcafe7;
+}
+
+.T-Age{
+    max-width: 200px;
+}
+
+.Checkbox-section2{
+    margin-left: -10px;
+}
+
+.Tutor-name-container{
+    display: flex;
+    white-space: 2px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.radio-section{
+    position: relative;
+    padding-top: 10px;
+}
+
+.radio1{
+    margin-left: 20px;
+    width: 10px;
+}
+
+
+.section1-choice, .section2-choice{
+    margin-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-top-color:#f1e8ca;
+    border-left-color:#f1e8ca;
+    border-right-color:#bcafe7;
+    border-bottom-color:#bcafe7;
+}
+
+.ranking-container{
+    margin-top:30px;
+}
+
+
+.acess-ele{
+    margin-bottom: 8px;
+    margin-top: 60px;
+}
+
+.elecheck1{
+    margin-left: -29px;
+}
+.radio-1-choice{
+    margin-left: 20px;
+    margin-right: 2px;
+    width: 10px;
+    margin-bottom: 60px;
+    
+}
+
+.radio-section1{
+    display: inline-block;
+}
+
+.Terms-and-Conditions label{
+    margin-top: 56px;
+    margin-right: -90px;
+}
+
+.Switch-button{
+    font-family: 'Verdana';
+    flex-shrink: 0;
+}
+
+
+.switch-form{
+    font-family: 'Verdana';
+    border: none;
+    margin-left: 30px;
+    text-decoration: none;
+    background-color:#EC9764;
+    color: #745151;
+    font-size: 15px;
+}
+.header{
+    margin-top: 15px;
+    background-color: #EC9764;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: fixed;
+    z-index: 100;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+
+    margin-left: 20px;
+    margin-right: 20px;
+
+    border-radius: 15px;
+
+    border-bottom-width: 5px;
+    border-bottom-style:groove;
+    border-bottom-color: #f45048;
+}
+
+.header p{
+    color: #745151;
+}
+
+.make-account-label{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.Student-R-title{
+    font-family:'Protest Strike',Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: top;
+    margin-right: 15px;
+    font-size: 20px;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.title-page{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    font-weight: bold;
+}
+
+.form-page{
+    position: center;
+    margin: 0;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+
+    padding-top: 40px;
+    padding-left: 96px;
+    padding-right: 96px;
+    padding-bottom: 100px;
+    background-color: #ddd6f3
+}
+
+.Application-info{
+    padding-top: 50px;
+    flex: 1; 
+
+
+}
+
+.Submit{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Submit-button{
+   flex: 1;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   border-radius: 20px;
+   background-color:#dd855c;
+   font-family:Verdana;
+   border-color:#eeb08a;
+   font-size: 20px;
+   font-weight: 500;
+   transition: opacity 0.6s;
+}
+
+.Submit-button:hover{
+    background-color:#eeb08a;
+}
