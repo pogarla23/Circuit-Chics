@@ -3,6 +3,12 @@ body{
     margin:0;
     padding:0;
 }
+p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 550;
+}
 a{
   text-decoration: none;
   color: inherit !important ;
@@ -11,10 +17,11 @@ a{
   align-items: center;
   flex-direction: column;
   display: flex;
+  font-family:Prtest Strike, Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .backimg {
-
+  
     width: 90%;
     height: 35rem;
     background-image: url("../images/home_page.jpg");
@@ -24,8 +31,15 @@ a{
     padding-top: 15%;
     
   }
+  .log, .ht{
+    font-family:Protest Strike, Verdana, Geneva, Tahoma, sans-serif; 
+    margin-left: 30px;
+    margin-right: 20px;
+  }
 
 .cards_container{
+    font-family:Protest Strike, Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 35px;
     height: 10%;
     width:85%;
     background-repeat: no-repeat;
