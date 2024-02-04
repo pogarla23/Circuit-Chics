@@ -1,9 +1,11 @@
 
 p, h2{
     font-family: Manrope, Protest Strike, Verdana;
+    color:#6a5252;
+    cursor: pointer;
 }
 body{
-    position: inherit;
+    position: relative;
     background-color: #f1e8ca;
 }
 
@@ -14,32 +16,92 @@ body{
     justify-content: space-between;
     padding-top: 20px;
     padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+
 }
 
-.profile{
-    font-family: Manrope, Verdana;
+
+
+.header{
+    z-index: 100;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+     justify-content:center;
+      color: #874FCE;
+       font-size: 40px; 
+      font-family:Protest Strike;
+     box-shadow:1px 10px 10px #959498; 
+     margin-left: 20px; 
+     padding-top:20px;
+}
+
+.Tutor{
     display: flex;
-    padding-left: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Tutor-info{
+    display: flex;
+    font-weight: 550;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+.imag1{
+    height: 150px;
+}
+.imag2{
+    height: 100px; 
+}
+
+.student-info-desc{
+    font-weight: 550;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+h2:hover{
+    color: #f1e8ca;
+}
+
+
+.profile{
+    text-align: center;
+    font-family: Manrope, Verdana;
     padding-top: 30px;
-    padding-right: 50px;
-    padding-bottom: 200px;
+    padding-right: 70px;
+    padding-left: 70px;
+    padding-bottom: 70px;
+
     border-radius: 20px;
     background-color: #EC9764;
-    align-items: center;
     box-shadow:1px 10px 10px rgb(108, 171, 192);
     transition: background-color 0.5s;
     margin: 20px;
 }
 
+.interests-section{
+    padding-top: 15px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    background-color:#f1e8ca;
+}
+
 .Tutor{
     font-family: Manrope, Verdana;
     display: flex;
-    padding-left: 50px;
+    padding-left: 45px;
     padding-top: 30px;
-    padding-right: 50px;
+    padding-right: 45px;
     padding-bottom: 300px;
     border-radius: 2px;
     background-color: #bcafe7;
+    text-align: center;
     align-items: center;
     box-shadow:1px 10px 10px rgb(108, 171, 192);
     transition: background-color 0.5s;
@@ -62,7 +124,7 @@ from left to right they fade in
 
 .card {
     display: flex;
-    padding-left: 70px;
+    padding-left: 80px;
     padding-top: 30px;
     padding-right: 70px;
     padding-bottom: 500px;
@@ -71,10 +133,11 @@ from left to right they fade in
     background-color: #dd855c;
 
     box-shadow:1px 10px 10px rgb(108, 171, 192);
-    transition: background-color 0.5s;
+    transition: background-color 0.5s, font-size 0.5s;
 }
 
 .card:hover{
+    font-size: 25px;
     background-color: rgb(149, 185, 197);
 }
 .card h2{
