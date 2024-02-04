@@ -10,21 +10,22 @@
 
 </head>
 <body>
-    <header class="header">
-        <p class="Back-link">
-            <span class="shop-link">
-                <a class="tag" style = "text-decoration: none" href="landingpage.html">
-                    Back to Main Website
-                </a>
-            </span>
-        </p>
-        <p class="title-page">Student Registration Page</p>
-        <p class="Student-R-title">Pegasus Connect</p>
-    </header>
+        <header class="header">
+            <p class="Back-link">
+                <span class="shop-link">
+                    <a class="tag" style = "text-decoration: none" href="landingpage.html">
+                        Back to Main Website
+                    </a>
+                </span>
+            </p>
+            <p class="title-page">Student Registration Page</p>
+            <p class="Student-R-title">Pegasus Connect</p>
+        </header>
+
     <form action="Tutorside.html" method="get" id="student-info-form">
         
         <div class="form-page">
-            <label>Applicant</label>
+            <label style="font-weight: 600">Applicant</label>
             <div class="Student-name-container">
                 <input class="S-First" placeholder="First Name" type="text" id="S-First" name="S-First" required>
                 <input class="S-Last" placeholder="Last Name" type="text" id="S-Last" name="S-Last" required>
@@ -34,67 +35,134 @@
             <div class="Guardian-name-container">
                 <input class="G-First" placeholder="First Name" type="text" id="G-First" name="G-First" required>
                 <input class="G-Last" placeholder="Last Name" type="text" id="G-Last" name="G-Last" required>
+                <input class="G-Relation" placeholder="Relation to Applicant" type="text" id="G-Relation" name="G-Relation" required>
             </div>
+            
 
             <div class="Application-info">
                 <label>Applicant Information</label>
+                <hr size="2" width="100%" color=#74515>
+                <div class="dropdowns">
+                    <label>Age</label>
+                    <!-- Dropdown select element -->
+                    <select class="dropdown1">
+                        <option value="None"> </option>
+                        <option value="12">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                    </select>
+
+                    <label>Gender</label>
+                    <!-- Dropdown select element -->
+                    <select class="dropdown1">
+                        <option value="None"> </option>
+                        <option value="12">Female</option>
+                        <option value="13">Non-Binary</option>
+                        <option value="14">Prefer not to Say</option>
+                    </select>
+
+                    <label>Pronouns</label>
+                    <!-- Dropdown select element -->
+                    <select class="dropdown1">
+                        <option value="None"> </option>
+                        <option value="she/her">she/her</option>
+                        <option value="he/him">he/him</option>
+                        <option value="they/them">they/them</option>
+                        <option value="Any">No Preference</option>
+                        <option value="Prefer not to say">Prefer not to Say</option>
+                    </select>
+                
+                </div>
+                
                 <div class="radio-section">
-                    <label>Institution:</label>
-                    <input class="middle-radio" type="radio" id="middle-school" name="school-level" value="middle-school" required>
+                    <label style="font-weight: 600">Institution:</label>
+                    <input class="radio1" type="radio" id="middle-school" name="school-level" value="middle-school" required>
                     <label for="middle-school">Middle School</label>
     
-                    <input  class="high-radio" type="radio" id="high-school" name="school-level" value="high-school" required>
+                    <input  class="radio1" type="radio" id="high-school" name="school-level" value="high-school" required>
                     <label for="high-school">High School</label>
                     
-                    <input class="other-radio" type="radio" id="Other" name="school-level" value="Other" required>
+                    <input class="radio1" type="radio" id="Other" name="school-level" value="Other" required>
                     <label for="Other">Other</label>
-
-                    <div>
-                    <input type="text" id="school-search" name="school-search" placeholder="Enter School" required>
-                    <p class="other-text">*If chosen "Other" Please Specify</p>
-                   
                 </div>
 
                 <div class="input-1">
-                    <input class="S-Grade" placeholder="Grade" type="text" id="input-grade" name="input-grade" required>
-                    <div class="dropdown">
-                        <!-- Dropdown select element -->
-                        <select>
-                          <option value="12">11</option>
-                          <option value="12">12</option>
-                          <option value="13">13</option>
-                          <option value="14">14</option>
-                          <option value="15">15</option>
-                          <option value="16">16</option>
-                          <option value="17">17</option>
-                        </select>
-                      </div>
-                </div>
-
-                <div class="Checkbox-section">
-                    <label>Do you have Access to a Computer or any Electronic at Home :</label>
-                    <input class="middle-radio" type="radio" id="middle-school" name="school-level" value="middle-school" required>
-                    <label for="middle-school">Middle School</label>
-    
-                    <input  class="high-radio" type="radio" id="high-school" name="school-level" value="high-school" required>
-                    <label for="high-school">High School</label>
-                    
-                    <input class="other-radio" type="radio" id="Other" name="school-level" value="Other" required>
-                    <label for="Other">Other</label>
-
-                    <div>
                     <input type="text" id="school-search" name="school-search" placeholder="Enter School" required>
-                    <p class="other-text">*If chosen "Other" Please Specify</p>
-                   
+                    <input class="S-Grade" placeholder="Grade" type="text" id="input-grade" name="input-grade" required>
+                </div>
+                <p class="other-text">*If chosen "Other" Please Specify (ex. Homeschooling)</p>
+                
+                <div class="location"> 
+                    <input class="S-City" placeholder="City" type="text" id="input-city" name="input-city" required>
+                    <input class="S-State" placeholder="State" type="text" id="input-state" name="input-state" required>
+                </div>
+                
+
+
+                <label class="acess-ele">Do you have Access to Reliable Internet at HOME  :</label>
+                <div class="radio-section1">
+                    <input class="radio-1-choice" type="radio" id="yes-choice" name="yes" value="Yes" required>
+                    <label for="Yes">Yes</label>
+    
+                    <input class="radio-1-choice" type="radio" id="no-choice" name="no" value="no" required>
+                    <label for="No">No</label>
+                    
+                    <input class="radio-1-choice" type="radio" id="idk" name="idk" value="Idk" required>
+                    <label for="IDK">I'm not sure</label>
                 </div>
 
-    
+
+                <label class="text-changes">
+                    What Devices do YOU have Access to? (Computer/Tablet/Phone)
+                </label>
+                <div class="Electronic-checklist">
+                    <label class="elecheck" for="Computer">
+                        <input type="checkbox" name="device" value="computer">
+                        Computer
+                    </label>
+                    <label  class="elecheck"  for="Phone">
+                        <input type="checkbox" name="device" value="Phone">
+                        Phone
+                    </label>
+
+                    <label  class="elecheck"  for="Tablet">
+                        <input type="checkbox" name="device" value="Tablet">
+                        Tablet
+                    </label>
+
+                    <label   class="elecheck"  for="Other-device">
+                        <input type="checkbox" name="device" value="Device">
+                        Other Device
+                    </label>
+                </div>
+
+                <div class="language">
+                    <p>What is your preferred language?</p>
+                    <input class="Language" placeholder="Preferred Language" type="text" id="Language" name="Language" required>
+                </div>
+              
+
+                <label class="make-account-label">Make an Account</label>
+                <div class="Guardian-name-container">
+                    <input class="G-First" placeholder="Username" type="text" id="G-First" name="G-First" required>
+                    <input class="G-Last" placeholder="Password" type="text" id="G-Last" name="G-Last" required>
+                </div>
+
+                
+                <div class="Terms-and-Conditions">
+                    <label>I agree to the terms and conditions</label>
+                    <input type="checkbox" name="device" value="Tablet" requried>
+                </div>
+
+                <div class="Submit">
+                    <button class="Submit-button">SUBMIT</button>
+                </div>
+
             </div>
-            </div>
-            <div class="Submit">
-                <button class="Submit-button">SUBMIT</button>
-            </div>
-        </div>
     </form>
 </body>
 </html>
