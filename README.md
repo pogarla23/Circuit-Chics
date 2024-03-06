@@ -35,7 +35,7 @@ Spend more time refining the idea and piloting an MVP.
 
 Emma was the Project Manager and oversaw all aspects of the project. This included guiding the team and keeping everyone on board with our main idea and meeting deadlines. She was also directly involved in the figma prototyping, and project abstract outlining problem, user requirements and product features.
 
-### Pooja  Garlapati (Frontend Engineer, Computer Engineering Major  @ Louisana University)
+### Pooja  Garlapati (Frontend Engineer, Computer Engineering Major  @ Louisiana University)
 
 Pooja worked  on the frontend of our project. She made sure that this was a great resource for our final presentation that would demonstrate what our app can really do. 
 
